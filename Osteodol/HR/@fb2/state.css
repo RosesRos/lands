@@ -1,0 +1,30 @@
+#state {}
+#state img {
+    width: 100%;
+}
+#state p {
+    color: #374044;
+    line-height: 21px;
+}
+#state * {
+    margin: 8px auto;
+}
+
+
+#state .content .photo_block {
+    font-size: 0;
+    width: 100%;
+    max-width: 100%;
+}
+#state .content .photo_block img {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0!important;
+    width: 50% !important;
+}
+
+.prod {
+    max-width: 60%;
+    width: 100%;
+    margin: 0 auto;
+}

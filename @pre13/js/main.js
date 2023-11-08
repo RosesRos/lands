@@ -1,0 +1,1 @@
+$(document).ready((function(){$("#slider1").slick({slidesToScroll:1,autoplay:!1,autoplaySpeed:5e3,arrows:!0,dots:!0,adaptiveHeight:!1}),$("#slider2").slick({slidesToScroll:1,autoplay:!1,autoplaySpeed:5e3,arrows:!0,dots:!1,adaptiveHeight:!0});var e=30,a=setInterval((function(){e--,$(".pack_value").html(e)}),3e4);setTimeout((function(){clearInterval(a)}),15e4)}));

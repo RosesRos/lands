@@ -1,0 +1,118 @@
+form {
+    margin: 0 auto 30px;
+    width: 274px;
+    max-width: 100%;
+}
+
+.b-price-box {
+    position: relative;
+    margin: 21px 0;
+}
+
+.b-selectbox::after {
+    content: '\2039';
+    position: absolute;
+    right: 34px;
+    top: 13px;
+    font-size: 20px;
+    z-index: 0;
+    transform: rotate(-90deg);
+    text-align: center;
+    color: #868686;
+}
+
+.b-selectbox {
+    position: relative;
+}
+
+.b-select, .b-input {
+    position: relative;
+    width: 274px;
+    background: #F0F0F0;
+    border-radius: 30px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000;
+    padding: 17px 23px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.b-button {
+    position: relative;
+    background: radial-gradient(77.36% 77.36% at 50% 22.64%, #AFB849 0%, #7F862E 100%);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    width: 274px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    padding: 18px 52px 18px 20px;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.b-button::before {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 21px;
+    right: 40px;
+    background: url(../images/arrow.png) no-repeat;
+}
+
+.b-button-box {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 4px;
+    border-radius: 30px;
+    background: #72782A;
+    transition: 0.3s;
+    width: 274px;
+    position: relative;
+}
+
+.b-button-box:hover, .b-button-box:active {
+    transform: scale(1.05);
+}
+
+.b-price-new {
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 27px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 52%;
+    text-align: right;
+    margin-right: 8px;
+}
+
+.b-price-old {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: line-through;
+    color: #AFAFAF;
+    display: inline-block;
+    vertical-align: middle;
+    width: 64px;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+select::-ms-expand {
+    display: none;
+}

@@ -1,0 +1,1 @@
+$(".pre_toform").click((function(){return $("html, body").animate({scrollTop:$(".order__form").offset().top},700),!1}));

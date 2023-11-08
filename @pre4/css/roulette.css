@@ -1,0 +1,419 @@
+body {
+    scroll-behavior: smooth;
+}
+
+.ctSpinner__block {
+    overflow: hidden;
+    margin: 15px auto;
+    max-width: 800px;
+    font-family: sans-serif;
+}
+
+.spinnerBlock__ctSpinner {
+    -webkit-box-shadow: 0 0 10px;
+    box-shadow: 0 0 10px;
+    border: 3px solid red;
+    padding: 20px 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    transition: height 0.4s ease-in-out;
+}
+
+.ctSpinner__description {
+    margin-bottom: 15px;
+    line-height: 25px;
+    font-weight: 700;
+    text-align: center !important;
+}
+
+.wheelWrapper {
+    position: relative;
+    user-select: none
+}
+
+.imageBlock__numbers {
+    position: absolute;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    user-select: none
+}
+
+.wheelWrapper__imageBlock {
+    transform: rotate(-46deg);
+    max-width: 380px;
+    width: 100%;
+    max-height: 380px;
+    height: 100%;
+}
+
+/*numbersBlock  start*/
+
+.numberItems__item {
+    line-height: 1;
+    font-weight: 700;
+    font-size: 3.5em;
+    font-family: sans-serif;
+    color: #000;
+    position: absolute;
+}
+
+.numberItems__item::before {
+    content: "%";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    font-size: .7em
+}
+
+.numberItems__item:nth-child(1) {
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.numberItems__item:nth-child(2) {
+    top: 25%;
+    left: 75%;
+    transform: translate(-50%, -50%) rotateZ(45deg)
+}
+
+.numberItems__item:nth-child(3) {
+    top: 50%;
+    left: 85%;
+    transform: translate(-50%, -50%) rotateZ(90deg)
+}
+
+.numberItems__item:nth-child(4) {
+    top: 75%;
+    left: 75%;
+    transform: translate(-50%, -50%) rotateZ(135deg)
+}
+
+.numberItems__item:nth-child(5) {
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotateZ(180deg)
+}
+
+.numberItems__item:nth-child(6) {
+    top: 75%;
+    left: 25%;
+    transform: translate(-50%, -50%) rotateZ(225deg)
+}
+
+.numberItems__item:nth-child(7) {
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%) rotateZ(270deg)
+}
+
+.numberItems__item:nth-child(8) {
+    top: 25%;
+    left: 25%;
+    transform: translate(-50%, -50%) rotateZ(315deg)
+}
+
+@media only screen and (max-width: 576px) {
+    .numberItems__item {
+        font-size: 1.95em
+    }
+    .numberItems__item::before {
+        top: 100%
+    }
+}
+
+/*numbersBlock  end*/
+
+.ctSpinner__wheelWrapper {
+    max-width: 380px;
+    width: 100%;
+    max-height: 380px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative
+}
+
+.spinBtn__img,
+.imageBlock__img {
+    width: 100%;
+    height: 100%
+}
+
+.wheelWrapper__spinBtn {
+    position: absolute;
+    width: 35%;
+    height: 35%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+.spinBtn__text {
+    position: absolute;
+    z-index: 2;
+    display: inline-block;
+    width: 45%;
+    height: 45%;
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 61px;
+    cursor: pointer;
+    border-radius: 50%;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    top: 49%;
+    left: 50%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-box-shadow: #fff 0 -2px 0 inset, #fff 0 2px 0 inset, rgba(0, 0, 0, .4) 0 0 5px;
+    box-shadow: #fff 0 -2px 0 inset, #fff 0 2px 0 inset, rgba(0, 0, 0, .4) 0 0 5px;
+    background: -o-radial-gradient(center, ellipse, #fff 0, #eaeaea 100%);
+    background: radial-gradient(ellipse at center, #fff 0, #eaeaea 100%);
+}
+
+.spinnerBlock__ctOrderForm {
+    display: none;
+    text-align: center;
+}
+
+.spinnerBlock__popUp--bg {
+    display: none;
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    left: 0;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .6);
+    text-align: center
+}
+
+.ctSpinContent__acceptBtn:hover {
+    color: #fff;
+    text-decoration: none
+}
+
+.ctSpinContent__closeIcon {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-image: url(../fonts/cross_1.svg);
+    background-size: 100%;
+    top: -40px;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 10px #fff;
+    box-shadow: 0 0 10px #fff;
+    right: -40px;
+    cursor: pointer
+}
+
+.stSpinDescription {
+    margin-bottom: 25px;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center
+}
+
+.stSpinDescription__title {
+    text-align: center !important;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.ctSpinContent__acceptBtn {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 20%;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #71c341;
+    color: #fff !important;
+    border: medium none;
+    cursor: pointer;
+    display: inline-block;
+    outline: medium none
+}
+
+.spinBtn__text:active {
+    -webkit-box-shadow: rgba(0, 0, 0, .4) 0 0 5px inset;
+    box-shadow: rgba(0, 0, 0, .4) 0 0 5px inset
+}
+
+.ctSpinContent {
+    position: relative;
+    max-width: 400px;
+    right: 0;
+    left: 0;
+    top: 40%;
+    margin: 0 auto;
+    background: #fff none repeat scroll 0 0;
+    text-align: center;
+    padding: 42px 10px 20px;
+    border-radius: 10px;
+    animation: .7s ease 0s normal none 1 running pop-up-appear
+}
+
+.ctSpinContent::before {
+    content: "";
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    top: -55px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: #71c341;
+    border-radius: 50%;
+    animation: .5s ease .6s normal backwards 1 running pop-up-appear-before
+}
+
+.ctSpinContent::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    top: -20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-width: medium medium 4px 4px;
+    border-style: none none solid solid;
+    border-color: currentcolor currentcolor #fff #fff;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    transform: rotate(-45deg);
+    transition: opacity 1s ease 0s;
+    animation: .5s ease .6s normal backwards 1 running pop-up-appear-after
+}
+
+.super-rotation {
+    -webkit-animation-name: super-rotation;
+    animation-name: super-rotation;
+    -webkit-animation-duration: 7s;
+    animation-duration: 7s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out
+}
+
+@media all and (max-width: 520px) {
+    .ctSpinner__wheelWrapper {
+        width: 260px;
+        height: 260px
+    }
+    .spinBtn__text {
+        line-height: 45px;
+        font-size: 10px
+    }
+}
+
+@media screen and (max-width: 520px) and (min-width: 345px) {
+    .ctSpinner__wheelWrapper {
+        width: 250px;
+        height: 250px
+    }
+    .spinBtn__text {
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .ctSpinContent__closeIcon {
+        right: 0
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .stSpinDescription {
+        font-size: 22px
+    }
+}
+
+@keyframes pop-up-appear {
+    0% {
+        transform: translateY(-2000px)
+    }
+    30% {
+        transform: translateY(100px)
+    }
+    100% {
+        transform: translateY(0)
+    }
+}
+
+@keyframes pop-up-appear-before {
+    0% {
+        transform: scale(0)
+    }
+    100% {
+        transform: scale(1)
+    }
+}
+
+@keyframes pop-up-appear-after {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes super-rotation {
+    70% {
+        transform: rotate(3080deg)
+    }
+    to {
+        transform: rotate(3060deg)
+    }
+}
+
+.ctSpinPopUp {
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.showPopup {
+    opacity: 1;
+    display: block;
+}
+
+.hidePopup {
+    opacity: 0;
+    display: none;
+}
+
+.red-description {
+    color: red;
+    font-size: 25px;
+    text-align: center !important;
+}
+
+.ctSpinContent__description {
+    text-align: center !important;
+}

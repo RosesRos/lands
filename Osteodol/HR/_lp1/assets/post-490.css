@@ -1,0 +1,184 @@
+.elementor-kit-490 {
+    --e-global-color-primary: #202020;
+    --e-global-color-secondary: #B7B4B4;
+    --e-global-color-text: #707070;
+    --e-global-color-accent: #F6121C;
+    --e-global-color-25c9130c: #6EC1E4;
+    --e-global-color-725c6c52: #54595F;
+    --e-global-color-3d1c9fc6: #7A7A7A;
+    --e-global-color-13378c25: #61CE70;
+    --e-global-color-30ebf651: #4054B2;
+    --e-global-color-4e47f0c4: #23A455;
+    --e-global-color-7eba0c6f: #000;
+    --e-global-color-10bc5b45: #FFF;
+    --e-global-color-7de982a0: #488468;
+    --e-global-color-3b3028c5: #3A738E;
+    --e-global-color-1c7439a1: #99D7E2;
+    --e-global-color-3de88ad9: #C7E7E4;
+    --e-global-color-5756f795: #FF6251;
+    --e-global-color-57b5bf15: #0F5476;
+    --e-global-color-62eb9ff9: #F56E20;
+    --e-global-color-441afee1: #2F2F2F;
+    --e-global-color-1f7fd35c: #000000;
+    --e-global-color-78805b97: #55AE84;
+    --e-global-color-33ae285f: #A6C5B6;
+    --e-global-color-833bd53: #FEEB9E;
+    --e-global-color-9f6b899: #CB8933;
+    --e-global-color-69010557: #E91E13;
+    --e-global-color-4a882ec3: #000000;
+    --e-global-color-1332af85: #636363;
+    --e-global-color-4fff9f64: #1997CE;
+    --e-global-color-1252cb32: #B98107;
+    --e-global-color-12917f44: #000000;
+    --e-global-color-314d080f: #3A2800;
+    --e-global-color-4a645945: #FF6128;
+    --e-global-color-18fcbb8f: #020101;
+    --e-global-color-3947ebaf: #D2CFCE;
+    --e-global-color-6068db84: #F7F7F7;
+    --e-global-color-77018cc: #F8FFE2;
+    --e-global-color-60842486: #B6D956;
+    --e-global-color-37692fa5: #333333;
+    --e-global-color-79f4e91: #FBF8F3;
+    --e-global-color-163bdb5c: #035257;
+    --e-global-color-2f522c36: #005C6A;
+    --e-global-color-68e46a3e: #F0F0F0;
+    --e-global-color-15c4fb9f: #353744;
+    --e-global-color-506837e: #F8F9FE;
+    --e-global-color-48cb7d08: #ED2450;
+    --e-global-color-68109324: #60C36D;
+    --e-global-color-5d170563: #8B8FED;
+    --e-global-color-145ffaa8: #F57932;
+    --e-global-color-31237273: #FDE5C3;
+    --e-global-color-2f396003: #FFF7ED;
+    --e-global-color-68d5b316: #99731F;
+    --e-global-color-4da300ea: #FFCD02;
+    --e-global-color-4dfbf5aa: #654603;
+    --e-global-color-3a025192: #352400;
+    --e-global-color-437b6989: #2CBBC3;
+    --e-global-color-7809b302: #2F4858;
+    --e-global-color-46bf2465: #000000;
+    --e-global-color-353c605d: #EDBE00;
+    --e-global-color-3b51a530: #000000;
+    --e-global-color-3752f0c: #4F83BD;
+    --e-global-color-24a7d9ae: #1F7B7A;
+    --e-global-color-34366002: #000000;
+    --e-global-color-772d85cd: #00C6B2;
+    --e-global-color-d61995d: #007BB6;
+    --e-global-color-6f00ddd: #02B790;
+    --e-global-color-eebcfb: #000000;
+    --e-global-color-27b583f4: #000000;
+    --e-global-color-e0c4e3e: #00D8D6;
+    --e-global-color-a5b7b8f: #FFC5D3;
+    --e-global-color-78bc848b: #DFF9FB;
+    --e-global-color-40eb2f3f: RGBA(218, 192, 134, 0.74);
+    --e-global-color-101bde8b: #DAC086;
+    --e-global-color-2455f59f: #FF6F0C;
+    --e-global-color-1584cac7: #B38C53;
+    --e-global-color-5a19b9e5: #000000;
+    --e-global-color-6a727024: #000000;
+    --e-global-color-2677d2b7: #FFB000;
+    --e-global-color-3b69d72a: #7A82B8;
+    --e-global-color-7202c16e: #000000;
+    --e-global-color-45fae898: #000000;
+    --e-global-color-694f1b61: #B1D353;
+    --e-global-color-16aaf5d6: #58B388;
+    --e-global-color-6e038d93: RGBA(211, 195, 158, 0.74);
+    --e-global-color-a42dd00: #000000;
+    --e-global-color-e347f9c: #031C52;
+    --e-global-color-1681b58b: #000000;
+    --e-global-color-4c4ef95: #000000;
+    --e-global-color-5c5db388: #000000;
+    --e-global-color-c16e705: #4483DB;
+    --e-global-color-5966032d: #000000;
+    --e-global-color-2028b17b: #6C6063;
+    --e-global-color-8e89166: #EBA278;
+    --e-global-color-3b1a4585: #000000;
+    --e-global-color-7b7b7fce: #F65A0C;
+    --e-global-color-7f89b578: #8C9727;
+    --e-global-color-385c29d6: #332E23;
+    --e-global-color-ee68f65: #1F4A35;
+    --e-global-color-631ed177: #A27851;
+    --e-global-color-25a98e6c: #CCE7DA;
+    --e-global-color-396a91e2: #AE2017;
+    --e-global-color-31f892a1: #000000;
+    --e-global-color-49268986: #FFF6F8;
+    --e-global-color-6040ae3c: #DFB34B;
+    --e-global-color-17b46f02: #C8992B;
+    --e-global-color-7ef1fe4a: #B40900;
+    --e-global-color-643e8a2b: #FF0000;
+    --e-global-color-58b62eb8: #000000;
+    --e-global-color-31c9250f: #0F9342;
+    --e-global-color-3356c1ca: #383737;
+    --e-global-color-7d63c3e2: #009178;
+    --e-global-color-eefb594: #006FEA;
+    --e-global-color-ac20886: #FF7100;
+    --e-global-color-97e045a: #654C98;
+    --e-global-color-9a91c18: #275384;
+    --e-global-color-db70cfb: #79297E;
+    --e-global-color-ce81be4: #6826BF;
+    --e-global-color-3ab9e59: #FF7294;
+    --e-global-color-4be88b0: #E2E2E0;
+    --e-global-color-073c84f: #FF4572;
+    --e-global-color-0a3bb4e: #C8AB35;
+    --e-global-color-e86e7e6: #FF85A2;
+    --e-global-color-d982b51: #00FF21;
+    --e-global-color-c09c6fe: #124B96;
+    --e-global-color-32aab5d: #EB6091;
+    --e-global-color-d1f517e: #FF778E;
+    --e-global-color-ea67163: #031C52;
+    --e-global-color-3ee07d8: #FFFFFF;
+    --e-global-typography-primary-font-family: "Open Sans";
+    --e-global-typography-primary-font-weight: 600;
+    --e-global-typography-secondary-font-family: "Open Sans";
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-text-font-family: "Open Sans";
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-accent-font-family: "Roboto";
+    --e-global-typography-accent-font-weight: 500;
+    --e-global-typography-3e63080-font-family: "Open Sans";
+    --e-global-typography-3e63080-font-weight: 600;
+    color: #2F2F2F;
+}
+
+.elementor-kit-490 label {
+    color: #F56E20;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+}
+
+.elementor-kit-490 input:not([type="button"]):not([type="submit"]),
+.elementor-kit-490 textarea,
+.elementor-kit-490 .elementor-field-textual {
+    letter-spacing: 0.3px;
+    background-color: #D9D9D9;
+    border-radius: 0px 0px 0px 0px;
+    padding: 10px 10px 10px 20px;
+}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 1140px;
+}
+
+{}
+
+h1.entry-title {
+    display: var(--page-title-display);
+}
+
+.elementor-kit-490 e-page-transition {
+    background-color: #FFBC7D;
+}
+
+@media(max-width:1024px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 1024px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 767px;
+    }
+}
